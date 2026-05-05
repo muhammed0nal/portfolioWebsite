@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "PixelOperator";
+  src: url("./assets/fonts/PixelOperatorSC-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PixelOperator2";
+  src: url("./assets/fonts/PixelOperator8-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PixelOperator3";
+  src: url("./assets/fonts/PixelOperatorSC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@theme {
+  --font-pixel: "PixelOperator", monospace;
+  --font-pixel2: "PixelOperator2", monospace;
+  --font-pixel3: "PixelOperator3", monospace;
+  --breakpoint-md: 808px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "PixelOperator", monospace;
+  background-color: #47c1ff;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
