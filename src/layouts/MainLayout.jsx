@@ -112,7 +112,6 @@ export default function MainLayout() {
       </div>
       <div className="hidden md:flex md:flex-wrap md:items-center">
         <Link to={"/"}>
-          {" "}
           <img className="w-20" src={logo} alt="logo" />
         </Link>
         <Link className="mr-4 ml-4" to={"/about"}>
